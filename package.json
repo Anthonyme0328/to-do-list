@@ -1,0 +1,22 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "To Do list app",
+  "main": "script.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anthonyme0328/to-do-list.git"
+  },
+  "author": "Anthony Erickson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anthonyme0328/to-do-list/issues"
+  },
+  "homepage": "https://github.com/Anthonyme0328/to-do-list#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
