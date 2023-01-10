@@ -12,8 +12,22 @@
 
 #add {
   padding: .5em;
+  margin-top: 1em;
   font-weight: bold;
   color: #fff;
   background: #1c9ea3d7;
   cursor: pointer;
 }
+
+#items {
+  border-style: solid;
+  border-color: black;
+  border-radius: 2em;
+  
+}
+
+.item {
+  margin: .5em;
+  border-bottom: solid #000 .1em;
+}
+
