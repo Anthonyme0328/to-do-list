@@ -59,7 +59,7 @@ const refreshToDos = () => {
       -1
     }
 
-    return a.desc < b.desc ? -1 : 1;
+    return a.description < b.description ? -1 : 1;
 
    })
 
