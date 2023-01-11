@@ -23,7 +23,7 @@ const setTodos = (items) => {
   localStorage.setItem('todo', itemsJson);
 };
 
-// adds an item in kocal storage
+// adds an item in local storage
 const addItem = () => {
 
   items.unshift({
@@ -91,5 +91,20 @@ Add_Button.addEventListener('click', () => {
   addItem()
 })
 
+let i = 0;
+let txt = 'Make a To Do List';
+let speed = 500;
 
+let typing = () => {
+  if ( i < txt.length) {
+    document.getElementById('typingText').innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typing, speed)
+  }
+}
+
+
+
+
+typing()
 refreshToDos()

@@ -10,21 +10,30 @@
 </head>
 <body>
 
-  <h1 class="todoTitle">To Do's</h1>
+  <div class="headerDiv">
+      <h1 class="todoTitle">To Do's</h1>
+  </div>
+  
 
+  <div id="items">
 
-  <div id="items"></div>
+  </div>
 
     <template id="itemTemplate">
       <div class="item">
         <input type="checkbox" class="item-completed">
-        <input type="text" class="item-description" placeholder="To Do Item">
+        <input type="text" class="item-description" placeholder="Type Your To Do Here!">
       </div>
     </template>
 
+  <div class="buttonDiv">
+      <button id="add">Add</button>
+  </div>
 
+  <div class="toolTip" id="typingText">
+    <span class="toolTipText">I'm just an animation</span>
+  </div>
 
-<button id="add">Add</button>
 
   
 </body>
